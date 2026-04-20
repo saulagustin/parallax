@@ -1,0 +1,47 @@
+
+ body{
+    background-color: black;
+    color: white;
+ }
+header{
+    position: absolute;
+    left: 0;
+    z-index: 99;
+    width: 100%;
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Logo{
+    z-index: 99;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 2rem;
+}
+.menu{
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+}
+.menu li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+.Parallax{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background-image: url(respaldo/imagenes/espacio.jpg);
+}
+.Parallax img{
+    position: absolute;
+    bottom: -50px;
+}
+.titulo{
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+}
